@@ -50,7 +50,7 @@ body {
 }
 
 .column-container {
-    flex: 1;
+    display: flex;
     padding: 20px;
     background-color: white;
     text-align: justify;
@@ -230,17 +230,6 @@ form select {
     text-decoration: underline;
 }
 
-@media screen and (max-width: 768px) {
-    .row-container {
-        flex-direction: column;
-    }
-
-    .nav-bar {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    
-}
 @media screen and (max-width: 480px) {
     .data_box {
         width: 90%; 
