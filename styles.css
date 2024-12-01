@@ -87,6 +87,148 @@ body {
     color: #0056b3;
     background-color: #e6f0ff;
 }
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.data_box {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+.img_box{
+    max-width: 400px; 
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 1cm; 
+}
+
+.image-container a {
+    display: block;
+    border: 3px solid black; 
+}
+
+.image-container img {
+    width: 200px;
+
+    height: 150px;
+    display: block;
+}
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+form input, form select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e0f7ff;
+    box-sizing: border-box;
+}
+
+form select {
+    background-color: white;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.save-btn, .cancel-btn {
+    flex: 1;
+    text-align: center;
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.save-btn:hover, .cancel-btn:hover {
+    background-color: #218838;
+}
+.author-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.team-list {
+    list-style: upper-alpha inside;
+    margin: 0;
+    padding: 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.team-list li {
+    margin: 10px 0;
+}
+
+.links p {
+    margin: 10px 0;
+}
+
+.links a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
 
 @media screen and (max-width: 768px) {
     .row-container {
@@ -96,5 +238,52 @@ body {
     .nav-bar {
         flex-wrap: wrap;
         justify-content: center;
+    }
+    
+}
+@media screen and (max-width: 480px) {
+    .data_box {
+        width: 90%; 
+        padding: 15px;
+    }
+
+    table th, table td {
+        padding: 5px;
+        font-size: 14px; 
+    }
+
+    .links a {
+        font-size: 14px; 
+    }
+    .form-container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    form input, form select {
+        font-size: 14px;
+    }
+
+    .form-buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .save-btn, .cancel-btn {
+        flex: none;
+        width: 100%;
+    }
+    .author-container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .team-list {
+        padding: 0 10px;
+        font-size: 14px;
+    }
+
+    .links a {
+        font-size: 14px;
     }
 }
