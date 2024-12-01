@@ -42,7 +42,22 @@ body{
     align-items: center;
     max-width:350px;
     margin: 35px;
+    
+    border-radius: 3vw;
+    background-color: white;
 }
+.column-container p{
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+
+.main-box p{
+    border-radius: 3vw;
+    background-color: white;
+    margin-left: 0.5vw;
+    margin-right: 1vw;
+}
+
 .cool-link{
     background-color: #484848;
     color: white;
