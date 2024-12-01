@@ -31,11 +31,13 @@ body {
 }
 
 .main-box {
-    width: 100%;
-    padding: 20px;
+    max-width: 100%;
+    padding: 5px;
     background-color: white;
-    text-align: justify;
+    text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 
 .row-container {
