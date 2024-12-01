@@ -5,8 +5,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #4f4f4f;
-    color:white;
+    background-color: #f4f4f4;
+    color:black;
     text-align: center;
     min-height:95vh;
 }
